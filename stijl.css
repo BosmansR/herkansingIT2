@@ -565,6 +565,7 @@ h1 {
   grid-column: 1/2;
   grid-row: 2/4;
   border: none;
+  padding-right: 3rem;
 }
 
 .form {
