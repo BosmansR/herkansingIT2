@@ -284,7 +284,7 @@ h1 {
   padding: 2.6rem 5vw 2.5rem 5vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 10fr
+  grid-template-rows: 1fr 1fr 4fr 1fr;
 }
 
 #panelThree.threeShown{
@@ -334,7 +334,7 @@ input {
 }
 
 textarea {
-  width: 50vw;
+  width: 70vw;
   background-color: #221227;
   color: white;
   font-size: 2rem;
@@ -347,6 +347,20 @@ textarea {
 
 ::placeholder {
   color: white;
+}
+
+button {
+  background-color: white;
+  color: #221227;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 2.5rem;
+  width: 20rem;
+  height: 5rem;
+  margin: 0 auto;
+  grid-column: 1/3;
+  outline: none;
+  cursor: pointer;
 }
 
 h5 {
